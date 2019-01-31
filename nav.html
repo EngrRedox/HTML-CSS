@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Bar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+	integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<style>
+	*{
+	margin:0;
+	padding:0;
+	}
+
+	body{
+	background:#1e1e1e;
+	font-family:Century Gothic;
+	}
+	
+	nav{
+	width:100%;
+	background:#3D5958;
+	}
+	
+	ul{
+	width:80%;
+	margin:0 auto;
+	padding:0;
+	}
+	
+	ul li{
+	list-style:none;
+	display:inline-block;
+	padding:20px;
+	}
+
+	ul li:hover{
+	background:linear-gradient(to right, rgba(99, 128, 108, 0.9), rgba(141, 157, 129, 0.6));
+	}
+
+	ul li a{
+	text-decoration:none;
+	color:white;
+	}
+	
+	.je-d1{
+	width:100%;
+	background:#8D9D81;
+	padding:10px 20px;
+	text-align:right;
+	box-sizing:border-box;
+	font-size:20px;
+	color:#545454;
+	display:none;
+	}
+
+	i:hover{
+	color:black;
+	}
+
+	@media (max-width:768px){
+	.je-d1{
+	display:block;		
+	}
+
+	ul{
+	width:80%;
+	}
+
+	ul li{
+	text-align:center;
+	display:block;
+	}
+	}
+</style>
+</head>
+
+<body>
+	<nav class="je-n1">
+		<div class="je-d1">
+			<i class="fas fa-align-justify"></i>
+		</div>
+		<ul>
+			<li><a href="#">Home</li></a>
+			<li><a href="#">About</li></a>
+			<li><a href="#">Portfolio</li></a>
+			<li><a href="#">Contact Me</li></a>
+		</ul>
+	</nav>
+</body>
+</html>
